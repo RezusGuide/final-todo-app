@@ -162,13 +162,6 @@ pipeline {
         // Stage 6: Push Docker Image to Registry
         // =====================================================================
         stage('Docker Push') {
-            when {
-                anyOf {
-                    branch 'main'
-                    branch 'develop'
-                    branch 'master'
-                }
-            }
             steps {
                 echo '=== Pushing Docker image to registry ==='
                 script {
@@ -197,9 +190,6 @@ pipeline {
         // Stage 7: Deploy to Kubernetes (main branch only)
         // =====================================================================
         stage('Deploy to Kubernetes') {
-            when {
-                branch 'master'
-            }
             steps {
                 echo '=== Deploying to Kubernetes ==='
                 script {
