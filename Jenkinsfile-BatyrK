@@ -142,7 +142,7 @@ pipeline {
                     def latestTag = "${DOCKER_IMAGE}:latest"
 
                     sh """
-                        docker build -t ${imageTag} -f docker/Dockerfile_BatyrK .
+                        docker build -t ${imageTag} -f docker/Dockerfile-BatyrK .
                         docker tag ${imageTag} ${latestTag}
                     """
 
