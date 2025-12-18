@@ -15,7 +15,7 @@ pipeline {
         DOCKER_CREDENTIALS = credentials('docker-hub-credentials')
 
         // Git Configuration
-        GIT_REPO = 'https://github.com/rezuskz/devops-final.git'
+        GIT_REPO = 'https://github.com/rezuskz/final-todo-app.git'
 
         // Kubernetes Configuration
         KUBECONFIG = credentials('kubeconfig')
