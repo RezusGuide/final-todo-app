@@ -204,7 +204,7 @@ pipeline {
                 script {
                     // Update image tag in deployment
                     sh """
-                        sed -i 's|image: rezuskz/todo-app:.*|image: ${DOCKER_IMAGE}:${DOCKER_TAG}|g' k8s/deployment_BatyrK.yaml
+                        sed -i 's|image: rezuskz/todo-app:.*|image: ${DOCKER_IMAGE}:${DOCKER_TAG}|g' k8s/deployment-BatyrK.yaml
                     """
 
                     // Apply Kubernetes manifests
