@@ -120,8 +120,33 @@ kubectl port-forward service/todo-app-service 8085:8080
 Запуск через Docker Compose
 cd docker
 docker-compose -f docker-compose-BatyrK.yml up --build
-
+```
 👨‍💻 Автор
 Разработчик: BatyrK
 
 Проект: Final DevOps Exam
+
+Доказательства:
+Docker: success!
+![photo_5341319594322366433_y](https://github.com/user-attachments/assets/224f3474-d08b-4332-86a9-c35ee7d4bca9)
+
+
+Jenkins build success!!
+![photo_5343571394136050470_w](https://github.com/user-attachments/assets/ef7af1c4-ed3d-4811-a461-32fcf381f4e2)
+
+
+Kubernetes pods and services running
+![photo_5341319594322367480_y](https://github.com/user-attachments/assets/5f7334b7-084d-426e-9068-18a9fdf8d66b)
+
+
+Using this command you can run vm open ip's on host-machine localhost
+<img width="894" height="18" alt="image" src="https://github.com/user-attachments/assets/43f4d2c8-250d-462e-8a03-9d05179199e2" />
+
+
+AND LAST BUT NOT LEAST REST OUTPUT
+![photo_5343571394136050472_w](https://github.com/user-attachments/assets/437a3971-05c7-4f0b-828a-15b76ce2a26c)
+
+and of course curl output is 200
+<img width="744" height="266" alt="image" src="https://github.com/user-attachments/assets/a185abec-99c8-4ce0-ae6c-9e4006fe9c69" />
+
+
