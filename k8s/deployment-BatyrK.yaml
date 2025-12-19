@@ -12,7 +12,7 @@ metadata:
     author: AbayK
     version: "1.0.0"
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: todo-app
@@ -41,7 +41,7 @@ spec:
               memory: "256Mi"
               cpu: "250m"
             limits:
-              memory: "512Mi"
+              memory: "768Mi"
               cpu: "500m"
 
           # Environment Variables from ConfigMap
