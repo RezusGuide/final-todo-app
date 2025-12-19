@@ -136,7 +136,7 @@ Jenkins build success!!
 
 
 Kubernetes pods and services running
-![photo_5341319594322367480_y](https://github.com/user-attachments/assets/5f7334b7-084d-426e-9068-18a9fdf8d66b)
+<img width="1289" height="585" alt="image" src="https://github.com/user-attachments/assets/145fbdf1-8c4a-4877-a0e0-406bd3d091c0" />
 
 
 Using this command you can run vm open ip's on host-machine localhost
