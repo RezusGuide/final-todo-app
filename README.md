@@ -133,6 +133,8 @@ Docker: success!
 
 Jenkins build success!!
 ![photo_5343571394136050470_w](https://github.com/user-attachments/assets/ef7af1c4-ed3d-4811-a461-32fcf381f4e2)
+Latest success
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/d34b7cc9-6aab-419a-aae0-0a4fa28c1e7c" />
 
 
 Kubernetes pods and services running
