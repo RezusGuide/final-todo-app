@@ -146,7 +146,8 @@ Using this command you can run vm open ip's on host-machine localhost
 
 
 AND LAST BUT NOT LEAST REST OUTPUT
-![photo_5343571394136050472_w](https://github.com/user-attachments/assets/437a3971-05c7-4f0b-828a-15b76ce2a26c)
+<img width="1918" height="1019" alt="image" src="https://github.com/user-attachments/assets/45975f3a-a152-41f7-a4a2-ebdb97e16f26" />
+
 
 and of course curl output is 200
 <img width="744" height="266" alt="image" src="https://github.com/user-attachments/assets/a185abec-99c8-4ce0-ae6c-9e4006fe9c69" />
